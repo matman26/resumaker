@@ -1,0 +1,209 @@
+moderncv:
+  moderncv_theme: casual # casual, classic, oldstyle, banking
+  moderncv_color: purple # blue, orange, green, red, purple, grey and black
+
+meta:
+  author_firstname: Matheus Augusto
+  author_lastname: da Silva
+  headline_en: Network Programmability and Network Automation
+  headline_pt: Programabilidade de Redes, Automação de Redes
+  quote_en: "``Make haste slowly'' -- Caesar Augustus "
+  quote_pt: "``Apressa-te devagar'' -- Augusto César"
+  location_en: Porto Alegre, Brazil
+  location_pt: Porto Alegre, Brazil
+  email: a.matheus26@hotmail.com
+  linkedin: https://www.linkedin.com/in/matheus-augusto-da-silva-a9b7a9162/
+
+experiences:
+  - name_en: Network and Infrastructure Analyst
+    name_pt: Analista de Infraestrutura e Redes
+    company_en: Nelogica
+    company_pt: Nelogica
+    country_en: Porto Alegre, Brazil
+    country_pt: Porto Alegre, Brasil
+    date_en: Feb 2021 -- Present
+    date_pt: Fev 2021 -- Presente
+    description_en: Test
+    description_pt: |-
+      Como parte da Equipe de Ferramentas e Automação, entrego rotinas automatizadas para backups e gestão de configuração em dispositivos Cisco, Juniper e Fortigate usando Ansible, Python e Bash. Empreguei Python com Jinja2 para automatizar relatórios periódicos de capacidade e disponibilidade da Infraestrutura. Administro nosso monitoramento baseado em Zabbix e Grafana; desenvolvo templates, regras de descoberta e implemento Proxies Zabbix para o monitoramento da Infraestrutura. Mantenho os repositórios Gitlab da equipe (código fonte, documentação, MRs e Pipelines CI/CD). Experiência com Linux e Windows como sistemas operacionais; AWS, Azure e Google como Clouds públicas. 
+
+  - name_en: IT Analyst
+    name_pt: Analista de TI
+    company_en: Grupo RK Telecom
+    company_pt: Grupo RK Telecom
+    country_en: Porto Alegre, Brazil
+    country_pt: Porto Alegre, Brasil
+    date_en: Aug 2020 -- Jan 2021
+    date_pt: Ago 2020 -- Jan 2021
+    description_en: Test
+    description_pt: |-
+      Suporte N2, NOC e TI em uma Provedora de Internet FTTH. Configuração de monitoramento de rede por SNMP e dashboards com Zabbix e Grafana. Configuração de roteadores MikroTik como CPEs (PPPoE, VPNs, EoIP, Firewall e NAT). Suporte TI interno. Manutenção de computadores, troubleshooting em sistema operacional Windows. Automação de tarefas de configuração com Ansible, Python e Bash.
+
+  - name: Network Automation Internship
+    name_pt: Estágio em Automação de Redes
+    company: Cisco Systems France
+    country: Issy-les-Moulineaux, France
+    country_pt: Issy-les-Moulineaux, França
+    date: Sep 2019 -- Feb 2020
+    date_pt: Set 2019 -- Fev 2020
+    description: Test
+    description_pt: |-   
+        Participação no projeto Private5G/LTE, que propõe uma solução de mobilidade baseada na 5G integrando tecnologias da Cisco como NSO para automação, SD-WAN para conectividade entre sites e tecnologias de Packet Core 4G e 5G. Desenvolvimento de serviços para NSO em Python, uso de ferramentas de automação como Ansible e configuração de funções LTE tais como MMEs, eNodeBs e SAE-GWs. Manipulação de REST APIs. Instalação e configuração de máquinas virtuais nas plataformas OpenStack e VMWare.
+
+awards:
+  - name: CCNA
+    description: ICND2
+    description_pt: ICND2
+    score: score 884/1000
+    score_pt: pontuação 884/1000
+    date: February 2020
+    date_pt: Fevereiro 2020
+
+  - name: ACA
+    description: Cloud Security
+    description_pt: Segurança Cloud
+    score: score 86/100
+    score: nota 86/100
+    date: May 2020
+    date_pt: Maio 2020
+
+  - name: TOEFL
+    description: C1
+    description_pt: C1
+    score: score 640/667
+    score_pt: pontuação 640/667
+    date: January 2019
+    date_pt: Janeiro 2019
+
+  - name: TFI
+    description: French
+    description_pt: Francês
+    score: score B2.2
+    score_pt: nivel B2.2
+    date: ""
+    date_pt: ""
+
+  - name: BRAFITEC
+    description: CAPES excellence scholarship
+    description_pt: Bolsa CAPES de excelência
+    score: ""
+    score_pt: ""
+    date: "2018-2020"
+    date_pt: "2018-2020"
+    
+languages:
+  human:
+    - name: Portuguese
+      name_pt: Português
+      level: Native
+      level_pt: Nativo
+
+    - name: English
+      name_pt: Inglês
+      level: Fluent/Bilingual
+      level_pt: Fluente/Bilingue
+
+    - name: French
+      name_pt: Francês
+      level: Fluent (B2.2)
+      level_pt: Fluente (B2.2)
+
+    - name: 
+      name_pt: 
+      level: 
+      level_pt: 
+
+  machine:
+    - category: Programming
+      category_pt: Programação
+      list: Python, C++, Javascript
+
+    - category: Markup
+      category_pt: Markup
+      list: "{\\LaTeX}, XML, JSON"
+
+    - category: Scientific
+      category_pt: Científico
+      list: "Matlab, Python (Numpy)"
+
+    - category: Shells e CLIs
+      category_pt: Shells e CLIs
+      list: "Bash, Powershell, Cisco IOS"
+
+tools:
+  - category: Network Engineering
+    category_pt: Engenharia de Redes
+    list: |-
+      TCP/IP, Switching (STP,VTP,DTP), Routing (RIP, OPSF, EIGRP), Network Automation, SDN, Monitoring (SPAN, Syslog, SNMP), Cisco IOS, Fortigate (GUI and CLI).
+    list_pt: |-
+      TCP/IP, Comutação (STP,VTP,DTP), Roteamento (RIP,OSPF,EIGRP), Automação de Redes, SDN, Monitoramento (SPAN, Syslog, SNMP), Cisco IOS, Fortigate (GUI e CLI).
+
+  - category: Infrastructure
+    category_pt: Infraestrutura
+    list: |-
+      Windows, Linux (CentOS, Ubuntu), Docker, AWS, GCP, Azure, Zabbix and Grafana, Netbox.
+    list_pt: |-
+      Windows, Linux (CentOS, Ubuntu), Docker, AWS, GCP, Azure, Zabbix e Grafana, Netbox.
+
+  - category: Automation
+    category_pt: Automação 
+    list: |-
+      Python, Bash, Powershell, Ansible and AWX, NAPALM, REST APIs, Gitlab CI, Jenkins, Cisco NSO, YANG.
+    list_pt: |-
+      Python, Bash, Powershell, Ansible e AWX, NAPALM, APIs REST, Gitlab CI, Jenkins, Cisco NSO, YANG.
+
+  - category: Miscellaneous
+    category_pt: Miscelânea
+    list: |-
+      Microsoft Office (Excel, Word, Powerpoint), {\\LaTeX}, Matlab, draw.io.
+    list_pt: |-
+      Microsoft Office (Excel, Word, Powerpoint), {\LaTeX}, Matlab, draw.io.
+
+education:
+  - course_name: Engineering Degree
+    course_name_pt: Diploma de Engenheiro
+    school_name: Télécom Paris
+    location: Paris, France
+    location_pt: Paris, França
+    description: Networking, Network Automation and Cybersecurity
+    description_pt: Redes, Automação de Redes e Segurança Cibernética
+    date: "2018 -- 2020"
+
+  - course_name: ATHENS Exchange
+    course_name_pt: Intercâmbio ATHENS
+    school_name: Mines Paristech
+    location: Paris, France
+    location_pt: Paris, França
+    description: Logistics and Production Systems
+    description_pt: Logística e Sistemas de Produção
+    date: "2018"
+
+  - course_name: Bachelor's Degree in Electric Engineering
+    course_name_pt: Bacharelado em Engenharia Elétrica
+    school_name: Universidade Federal do Rio Grande do Sul
+    location: Porto Alegre, Brazil
+    location_pt: Porto Alegre, Brasil
+    description: Electronics, Telecommunications and Telephony. Control Theory.
+    description_pt: Foco em Eletrônica, Telecomunicações e Telefonia. Teoria de Controle.
+    date: "2015 -- Presente"
+
+projects:
+  - name: Implementing a Monitoring Solution with Zabbix and Grafana
+    name_pt: Implementação de Solução de Monitoramento com Zabbix e Grafana
+    url:
+    date: 2020
+    company: Grupo RK Telecom
+    description:
+    description_pt: |-
+      Instalei em ambiente de produção (Linux CentOS 8) um \textit{stack} de monitoramento completo com Zabbix 4.4.0 para coleta de dados e Grafana para exibição de dashboards em ambiente de NOC. Escrevi scripts em Bash para automatizar o provisionamento de hosts através da API json do Zabbix e preparei playbooks Ansible para habilitar coleta SNMP em 80 CPEs MikroTik simultâneamente. Criei Dashboards em Grafana para visualização de dados em tempo real. Migrei dados de The Dude (NMS Mikrotik) para Zabbix de forma semi-automática através de scripts em bash, trabalhando dados em formato csv para gerar um payload json.
+
+  - name: Implementing the AAA with Blockchain Technologies
+    name_pt: Implementando a AAA com tecnologias Blockchain
+    url:
+    date: 2020
+    company: Télécom Paris
+    description:
+    description_pt: |-
+      Descrição de uma arquitetura de base onde um serviço de AAA (Authentication,Authorization and Accounting) pode ser fornecido por uma rede Blockchain, através de uso de Smart Contracts. Protótipo de Smart Contract foi desenvolvido em C++ para a plataforma EOS.IO. Usando Docker, preparei uma imagem de node EOS.IO pré-configurada na qual realizei uma demo do protótipo.
+
+skills:

@@ -1,0 +1,84 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+\moderncvstyle{casual}
+\moderncvcolor{purple}
+
+\usepackage[scale=0.75,margin=0.5in]{geometry}
+
+\firstname{ {{ cv.meta.author_firstname }} } % Your first name
+\familyname{ {{ cv.meta.author_lastname}} } % Your last name
+\title{ {{ cv.meta.headline_pt }} }
+\address{}{ {{ cv.meta.location_pt }} }
+\email{ {{ cv.meta.email }} }
+\phone{ {{ cv.meta.phone }} }
+\extrainfo{\href{ {{ cv.meta.linkedin }} }{LinkedIn Profile} }
+\photo[50pt][0.2pt]{cvpics/meforum.png}
+\quote{ {{ cv.meta.quote_pt }}}
+
+\begin{document}
+\makecvtitle
+
+\section{Experiência}
+{% for job in cv.experiences %}
+\cventry{ {{ job.date_pt }}}{ {{ job.name_pt }}}{ {{ job.company }}}{ {{ job.country_pt }}}{}{ {{ job.description_pt }}}
+{% endfor %}
+
+\section{Certificações e Honras}
+\noindent\begin{minipage}{.6\linewidth}
+{% for award in cv.awards %}
+\cvitem{\textbf{ {{ award.name }}} }{ {{ award.description_pt }} {{ award.score_pt }} ({{ award.date_pt }}) } 
+{% endfor %}
+\end{minipage}%
+\noindent\begin{minipage}{.4\linewidth}
+\includegraphics[width=75px]{cvpics/JPEG/150x150px/ccna_routerswitching_med.jpg}
+\includegraphics[width=110px]{cvpics/ACA-logo.png}
+\end{minipage}
+
+
+\noindent\begin{minipage}{.5\linewidth}
+\section{Linguagens Humanas}
+{% for language in cv.languages.human %}
+\cvitemwithcomment{\underline{ {{ language.name_pt }}}}{ {{ language.level_pt }}}{}
+{% endfor %}
+\end{minipage}
+\noindent\begin{minipage}{.5\linewidth}
+\section{Linguagens de Máquina}
+{% for language in cv.languages.machine %}
+\cvitemwithcomment{\underline{ {{ language.category_pt }}}}{ {{ language.list }}}{}
+{% endfor %}
+\end{minipage}
+
+\section{Conhecimento Técnico}
+{% for tool in cv.tools %}
+\cvitem{\textbf{ {{ tool.category_pt }}}}{ {{ tool.list_pt }}}
+{% endfor %}
+
+\newpage
+\section{Instituições}
+{% for education in cv.education %}
+\cventry{ {{ education.date }}}{\textbf{ {{ education.course_name_pt }}} }{ {{ education.school_name }}}{ {{ education.location_pt }}}{}{ {{ education.description_pt }}}
+{% endfor %}
+
+\section{Projetos}
+Links para todos os meus projetos anteriores no github podem ser encontrados no meu perfil LinkedIn, assim como o link para o meu canal no Youtube.
+\vspace{0.5cm}
+{% for project in cv.projects %}
+{{ "\cventry{" }}{{ project.date }}{{ "}{\\textbf{" }}{{ project.name_pt }}{{ "} }{" }}{{ project.company }}}{}{}{ {{ project.description_pt }}}
+{% endfor %}
+
+
+
+\cventry{2019--2020}{\textbf{Benchmarking da Private5G/LTE} }{Cisco Systems France}{}{}{Teste de desempenho de alguns dos componentes de um Packet Core LTE virtualizado e componentes de E-UTRAN. Utilisei ferramentas como iPerf, Docker e Ansible. Manualmente instalei Ubuntu em dois servidores bare-metal; os servidores foram então configurados e utilizados como injetores de tráfego controlados remotamente.}
+\cventry{2019}{\textbf{Automatizar a configuração de túneis IPSec com NAPALM} }{Télécom Paris}{}{}{Escrevi um script em Python usando a biblioteca NAPALM que utiliza um conjunto de dados em formato JSON a fim de fornecer os mecanismos do CRUD (Create,Read,Update,Delete) para gerenciar túneis IPSec entre as filiais de uma empresa.}
+\cventry{2019--Present}{\textbf{Cultivando um canal no Youtube} }{}{}{}{Como projeto pessoal, iniciei um canal do Youtube em inglês ( contando atualmente com mais de 65 mil visualizações e mais de  quatro mil horas de conteúdo assistido) onde eu falo sobre minha experiência utilizando Void Linux, Emacs e onde dou dicas de produtividade.}
+
+
+
+\section{Habilidades}
+\cvlistdoubleitem{Falar em Público}{Aprendizagem rápida}
+\cvlistdoubleitem{Iniciativa e Autonomia}{Trabalho em Equipe e gestão de tarefas}
+\cvlistdoubleitem{Escrita e Documentação}{Resolução de problemas}
+
+\renewcommand{\listitemsymbol}{-~}
+
+
+\end{document}

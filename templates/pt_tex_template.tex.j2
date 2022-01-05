@@ -1,0 +1,96 @@
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[scale=0.75,margin=0.5in]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{3cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\firstname{Matheus Augusto} % Your first name
+\familyname{da Silva} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Engenharia de Redes, Automação de Redes}
+\address{}{Rio Grande do Sul, Brasil}
+\email{a.matheus26@hotmail.com}
+\phone{+55 (54) 99907-2570}
+\extrainfo{\href{https://www.linkedin.com/in/matheus-augusto-da-silva-a9b7a9162/}{LinkedIn Profile}}
+\photo[50pt][0.2pt]{cvpics/meforum.png} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{``Apressa-te devagar'' --Augusto César}
+
+\begin{document}
+\makecvtitle % Print the CV title
+\section{Experiência}
+    \cventry{Fev 2021 -- Presente}{Analista de Infraestrutura e Redes}{Nelogica}{Brasil}{}{Como parte da Equipe de Ferramentas e Automação, entrego rotinas automatizadas para backups e gestão de configuração em dispositivos Cisco, Juniper e Fortigate usando Ansible, Python e Bash. Empreguei Python com Jinja2 para automatizar relatórios periódicos de capacidade e disponibilidade da Infraestrutura. Administro nosso monitoramento baseado em Zabbix e Grafana; desenvolvo templates, regras de descoberta e implemento Proxies Zabbix para o monitoramento da Infraestrutura. Mantenho os repositórios Gitlab da equipe (código fonte, documentação, MRs e Pipelines CI/CD). Experiência com Linux e Windows como sistemas operacionais; AWS, Azure e Google como Clouds públicas. }
+
+    \cventry{Ago 2020 -- Jan 2021}{Analista de TI}{Grupo RK Telecom}{Brasil}{}{Suporte N2, NOC e TI em uma Provedora de Internet FTTH. Configuração de monitoramento de rede por SNMP e dashboards com Zabbix e Grafana. Configuração de roteadores MikroTik como CPEs (PPPoE, VPNs, EoIP, Firewall e NAT). Suporte TI interno: manutenção de computadores, troubleshooting em sistema operacional Windows. Automação de tarefas de configuração com Ansible, Python e Bash.}
+
+    \cventry{Ago 2019 -- Fev 2020}{Estágio em Automação de Redes}{Cisco Systems}{França}{}{Participação no projeto Private5G/LTE, que propõe uma solução de mobilidade baseada na 5G integrando tecnologias da Cisco como NSO para automação, SD-WAN para conectividade entre sites e tecnologias de Packet Core 4G e 5G. Desenvolvimento de serviços para NSO em Python, uso de ferramentas de automação como Ansible e configuração de funções LTE tais como MMEs, eNodeBs e SAE-GWs. Manipulação de REST APIs. Instalação e configuração de máquinas virtuais nas plataformas OpenStack e VMWare.}
+
+\section{Certificações e Honras}
+\noindent\begin{minipage}{.6\linewidth}
+\cvitem{\textbf{CCNA}}{ICND2 Pontuação 884/1000 (Fevereiro 2020)}
+\cvitem{\textbf{ACA}}{Cloud Security Pontuação 86/100 (Maio 2020)}
+\cvitem{\textbf{TOEFL}}{Pontuação 640/667 (Janeiro 2019)}
+\cvitem{\textbf{TFI}}{Nível B2.2}
+\cvitem{\textbf{BRAFITEC}}{Bolsista CAPES por Excelência 2018-2020}
+\end{minipage}%
+\noindent\begin{minipage}{.4\linewidth}
+\includegraphics[width=75px]{cvpics/JPEG/150x150px/ccna_routerswitching_med.jpg}
+\includegraphics[width=110px]{cvpics/ACA-logo.png}
+\end{minipage}
+
+\noindent\begin{minipage}{.5\linewidth}
+  \section{Linguagens Humanas}
+\cvitemwithcomment{\underline{Português}}{Nativo}{}
+\cvitemwithcomment{\underline{Inglês}}{C1}{}
+\cvitemwithcomment{\underline{Francês}}{B2.2}{}
+\cvitemwithcomment{\underline{}}{}{}
+\end{minipage}
+\noindent\begin{minipage}{.5\linewidth}
+\section{Linguagens de Máquina}
+\cvitemwithcomment{\underline{Programação}}{Python, C++, Javascript}{}
+\cvitemwithcomment{\underline{Markup}}{{\LaTeX}, XML, JSON}{}
+\cvitemwithcomment{\underline{Científico}}{Matlab, Python (Numpy)}{}
+\cvitemwithcomment{\underline{Shells \& CLIs}}{Bash, Powershell, Cisco IOS}{}
+\end{minipage}
+
+\section{Conhecimento Técnico}
+\cvitem{\textbf{Engenharia de Redes}}{TCP/IP, Comutação (STP, VTP, DTP), Roteamento (RIP, OSPF, EIGRP), Network Automation, SDN, Monitoramento (SPAN, Syslog, SNMP), Cisco IOS, Fortigate (GUI and CLI).}
+\cvitem{\textbf{Infraestrutura}}{Windows, CentOS, Ubuntu, Docker, AWS, Docker, AWS, GCP, Azure, Zabbix \& Grafana, Netbox.}
+\cvitem{\textbf{Automação}}{Python, Bash, Powershell, Ansible e AWX, NAPALM, REST APIs, Gitlab CI, Jenkins, Cisco NSO, YANG.}
+\cvitem{\textbf{Miscelânea}}{Microsoft Office ( Excel, Word, Powerpoint), LaTeX, Matlab, draw.io .}
+
+\newpage
+\section{Instituições}
+
+\cventry{2018--2020}{\textbf{Diploma de Engenheiro}}{Télécom Paris}{Île-de-France -- França}{}{Redes TCP/IP e Segurança Cibernética}
+\cventry{2018}{\textbf{Intercâmbio ATHENS}}{Mines Paristech}{Île-de-France -- França}{}{Logística e Sistemas de Produção}
+\cventry{2015--2021}{\textbf{Bacharelado em Engenharia Elétrica}}{Universidade Federal do Rio Grande do Sul}{RS -- Brazil}{}{Ênfase em Eletrônica, Telecomunicações e Teoria de Controle}
+
+\section{Projetos}
+Links para todos os meus projetos anteriores no github podem ser encontrados no meu perfil LinkedIn, assim como o link para o meu canal no Youtube.
+\vspace{0.5cm}
+
+\cventry{2020}{\textbf{Implementação de Monitoramento com Zabbix e Grafana}}{Grupo RK Telecom}{}{}{Instalei em ambiente de produção (Linux CentOS 8) um \textit{stack} de monitoramento completo com Zabbix 4.4.0 para coleta de dados e Grafana para exibição de dashboards em ambiente de NOC. Escrevi scripts em Bash para automatizar o provisionamento de hosts através da API json do Zabbix e preparei playbooks Ansible para habilitar coleta SNMP em 80 CPEs MikroTik simultâneamente. Criei Dashboards em Grafana para visualização de dados em tempo real. Migrei dados de The Dude (NMS Mikrotik) para Zabbix de forma semi-automática através de scripts em bash, trabalhando dados em formato csv para gerar um payload json.}
+\cventry{2020}{\textbf{Implementando a AAA com tecnologias Blockchain}}{Télécom Paris}{}{}{Descrição de uma arquitetura de base onde um serviço de AAA (Authentication,Authorization and Accounting) pode ser fornecido por uma rede Blockchain, através de uso de Smart Contracts. Protótipo de Smart Contract foi desenvolvido em C++ para a plataforma EOS.IO. Usando Docker, preparei uma imagem de node EOS.IO pré-configurada na qual realizei uma demo do protótipo.}
+\cventry{2019--2020}{\textbf{Benchmarking da Private5G/LTE}}{Cisco Systems France}{}{}{Teste de desempenho de alguns dos componentes de um Packet Core LTE virtualizado e componentes de E-UTRAN. Utilisei ferramentas como iPerf, Docker e Ansible. Manualmente instalei Ubuntu em dois servidores bare-metal; os servidores foram então configurados e utilizados como injetores de tráfego controlados remotamente.}
+\cventry{2019}{\textbf{Automatizar a configuração de túneis IPSec com NAPALM}}{Télécom Paris}{}{}{Escrevi um script em Python usando a biblioteca NAPALM que utiliza um conjunto de dados em formato JSON a fim de fornecer os mecanismos do CRUD (Create,Read,Update,Delete) para gerenciar túneis IPSec entre as filiais de uma empresa.}
+\cventry{2019--Present}{\textbf{Cultivando um canal no Youtube}}{}{}{}{Como projeto pessoal, iniciei um canal do Youtube em inglês ( contando atualmente com mais de 65 mil visualizações e mais de  quatro mil horas de conteúdo assistido) onde eu falo sobre minha experiência utilizando Void Linux, Emacs e onde dou dicas de produtividade.}
+
+
+
+\section{Habilidades}
+\cvlistdoubleitem{Falar em Público}{Aprendizagem rápida}
+\cvlistdoubleitem{Iniciativa e Autonomia}{Trabalho em Equipe e gestão de tarefas}
+\cvlistdoubleitem{Escrita e Documentação}{Resolução de problemas}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

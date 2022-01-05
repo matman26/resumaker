@@ -1,0 +1,8 @@
+arandr==0.1.10
+Jinja2==3.0.2
+MarkupSafe==2.0.1
+pyaml==21.10.1
+pycairo==1.20.1
+PyGObject==3.40.1
+pyxdg==0.27
+PyYAML==6.0
